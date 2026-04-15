@@ -15,6 +15,11 @@ module.exports = {
     log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
     merge_logs: true,
     autorestart: true,
+    max_restarts: 20,
+    min_uptime: '30s',
+    restart_delay: 5000,
+    exp_backoff_restart_delay: 200,
+    kill_timeout: 10000,
     watch: false,
     max_memory_restart: '1G'
   }]
