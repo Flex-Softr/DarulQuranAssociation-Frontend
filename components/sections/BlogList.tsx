@@ -4,7 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Container from '../../components/layout/Container';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import BlogCard, { BlogPost } from '../../components/blog/BlogCard';
 
 // Swiper imports

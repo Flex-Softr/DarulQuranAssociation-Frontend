@@ -2,7 +2,7 @@
 
 import React, { useMemo, useState } from 'react';
 import Select, { SelectOption } from '../../components/ui/Select';
-import Input from '../../components/ui/input';
+import Input from '../../components/ui/Input';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 
 type Donation = {

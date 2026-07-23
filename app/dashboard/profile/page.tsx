@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Button from '../../../components/ui/button';
+import Button from '../../../components/ui/Button';
 import PasswordForms from '../../../components/profile/PasswordForms';
 import { updateUser, User } from '../../../services/Users';
 import { getCurrentUserProfile } from '../../../services/Users/me';

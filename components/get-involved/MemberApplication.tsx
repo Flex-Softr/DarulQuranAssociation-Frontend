@@ -3,7 +3,7 @@
 import * as React from 'react';
 import dynamic from 'next/dynamic';
 import type { CountryData } from 'react-phone-input-2';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import {
   submitMemberApplication,
   type MemberApplicationData,

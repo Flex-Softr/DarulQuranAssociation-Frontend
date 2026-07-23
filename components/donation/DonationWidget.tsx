@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 import {
   DonationCachePayload,

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Button from '../../../../components/ui/button';
+import Button from '../../../../components/ui/Button';
 import { createAdminUser } from '../../../../services/Users';
 import { toast } from 'sonner';
 import { useState } from 'react';

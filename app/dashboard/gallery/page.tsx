@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Button from '../../../components/ui/button';
+import Button from '../../../components/ui/Button';
 import MediaUploader from '../../../components/common/MediaUploader';
 import PaginationBar from '../../../components/admin/PaginationBar';
 import {

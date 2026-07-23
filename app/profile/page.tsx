@@ -12,7 +12,7 @@ import PasswordForms from '../../components/profile/PasswordForms';
 import ConfirmUpdateModal from '../../components/profile/ConfirmUpdateModal';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 import { toast } from 'sonner';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 
 type TabKey = 'info' | 'donations' | 'password';
 

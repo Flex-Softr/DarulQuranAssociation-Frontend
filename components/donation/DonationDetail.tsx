@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import Container from '../../components/layout/Container';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import { useI18n, Lang } from '../../components/i18n/LanguageProvider';
 import { translateText } from '../../lib/translate';
 import {

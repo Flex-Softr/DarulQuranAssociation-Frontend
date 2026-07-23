@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import Container from '../../components/layout/Container';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 import { translateText } from '../../lib/translate';

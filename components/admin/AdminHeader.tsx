@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import { removeClientToken } from '../../lib/tokenUtils';
 import { useRouter } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';

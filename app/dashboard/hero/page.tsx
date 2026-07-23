@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
-import Button from '../../../components/ui/button';
+import Button from '../../../components/ui/Button';
 import MediaUploader from '../../../components/common/MediaUploader';
 import PaginationBar from '../../../components/admin/PaginationBar';
 import { HeroImage, HeroImageInput, createHeroImage, deleteHeroImage, getAllHeroImages, updateHeroImage } from '../../../services/hero';

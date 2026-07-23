@@ -6,7 +6,7 @@ import { config } from '../../config';
 import { getImageUrl } from '../../lib/imageUtils';
 import { useI18n } from '../i18n/LanguageProvider';
 import Link from 'next/link';
-import Button from '../ui/button';
+import Button from '../ui/Button';
 
 type GalleryItem = { id: string; src: string; alt?: string; type?: 'image' | 'video' };
 

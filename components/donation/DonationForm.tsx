@@ -1,9 +1,9 @@
 'use client';
 
 import * as React from 'react';
-import Input from '../../components/ui/input';
+import Input from '../../components/ui/Input';
 import Select, { SelectOption } from '../../components/ui/Select';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 import {
   DonationCachePayload,

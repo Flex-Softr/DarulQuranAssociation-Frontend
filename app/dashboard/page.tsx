@@ -1,7 +1,7 @@
 'use client';
 
 import StatCard from '../../components/cards/StatCard';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';

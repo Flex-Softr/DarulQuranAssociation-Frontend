@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import MediaUploader from '../../components/common/MediaUploader';
 import { useState } from 'react';
 import { useI18n } from '../../components/i18n/LanguageProvider';

@@ -1,6 +1,6 @@
 'use client';
 
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 import Container from '../../components/layout/Container';
 import { useI18n } from '../../components/i18n/LanguageProvider';
 import { IoSchool } from "react-icons/io5";

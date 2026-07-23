@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useCallback, Fragment } from 'react';
-import Button from '../../../components/ui/button';
+import Button from '../../../components/ui/Button';
 import { useI18n, useTranslateEnum } from '../../../components/i18n/LanguageProvider';
 import {
 	getMemberApplications,

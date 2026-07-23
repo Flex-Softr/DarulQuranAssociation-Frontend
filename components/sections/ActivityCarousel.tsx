@@ -4,7 +4,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Container from '../../components/layout/Container';
-import Button from '../../components/ui/button';
+import Button from '../../components/ui/Button';
 // import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from '@/components/ui/Carousel';
 import type { ActivityItem } from '../../components/activity/ActivityCard';
 import { getLatestActivities } from '../../data/activities';

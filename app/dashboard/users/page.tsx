@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useCallback } from 'react';
-import Button from '../../../components/ui/button';
+import Button from '../../../components/ui/Button';
 import { getAllUsersPaginated, deleteUser, updateUser, User } from '../../../services/Users';
 import { toast } from 'sonner';
 import { useI18n } from '../../../components/i18n/LanguageProvider';
