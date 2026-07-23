@@ -29,6 +29,7 @@ const SECURITY_HEADERS = [
 
 const nextConfig = {
   reactStrictMode: true,
+  output: "standalone",
   typedRoutes: true,
   outputFileTracingRoot: process.cwd(),
   async rewrites() {
